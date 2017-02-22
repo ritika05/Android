@@ -6,5 +6,4 @@ android:
 
     # The SDK version used to compile your project
     - android-25
-    script:
-   - chmod +x ./gradlew
+
