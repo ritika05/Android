@@ -23,6 +23,7 @@ deploy:
   file: CalculatorApp/build/outputs/apk/CalculatorApp*release*.apk
   skip_cleanup: true
   on:
+    branch: master
     repo: ritika05/Android
     tags: true
     jdk: oraclejdk8
