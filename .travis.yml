@@ -22,3 +22,6 @@ deploy:
   file: "CalculatorApp/app/build/outputs/apk/app-release-unsigned.apk"
   on:
     repo: ritika05/Android
+after_success:
+    - sudo apt-get install tree
+    - tree
