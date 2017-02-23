@@ -3,11 +3,11 @@ jdk: oraclejdk8
 android:
   components:
     # The BuildTools version used by your project
-    - build-tools-19.0.0
+    - build-tools-24.0.1
 
     # The SDK version used to compile your project
-    - android-19
+    - android-24
 script:
-   - ./gradlew build connectedCheck
+   - ./gradlew build
 before_install:
     - chmod +x ./gradlew
