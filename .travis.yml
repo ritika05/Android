@@ -20,9 +20,11 @@ before_install:
     
 deploy:
   provider: releases
-  file: CalculatorApp/app/build/outputs/apk/app-debug.apk
+  user: "ritika@promactinfo.com"
+  password: "clenbee20102011"
+  file: "CalculatorApp/app/build/outputs/apk/app-debug.apk"
   skip_cleanup: true
   on:
     branch: master
     repo: ritika05/Android
-  api_key: "ddb231c3df73e093fc42086491c6e17fca5ccd70"
+    
