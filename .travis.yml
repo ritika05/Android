@@ -19,6 +19,6 @@ deploy:
   provider: releases
   api_key:
     secure: UCGtTytEj6BEq9l9VV8QJ9wdXqWQSdZ43J34vb9rQMenNRnP+VhXeYIXCTyRcphHhswH8AmNnvk7rGMsZbXlo3Wm6BCEQIOtP/M1jF1IbAfuUcEcc3DGjZ9c9lmS2Ao8Xm1kiew2ctsfug0Ma1YSagUK62d+aqqhq2rsJhw+Ii9yg3swV/y8a2vgGZgHls6+zqACwovWPjsRIG/ejmErw5GDrO0A2WtGleGKOPSJk1EXeJEF9fl8LIFSXyFOBpq+zUQQcLEMOBg2wy+YK1sQaP0UyvLmjsoGJxbl/jBH6A/u4gVpzd3wjaK/95+dd7S80BmREY0409nWmRyZ+kOLdBkiiRLeZzqNZG2uvALFvgZVbalHhZKefZPinAlgaZE90U7YU7yaBOs3YB+j7bMl/08VKk+m/8HoMAljP65JHBx4kBqj0jmaYIMGJUKgYDxVYF/rAZgjcnoEL6ZF4w1pJBOizoZ0mOmuI1TkXJriq+twLHDEdSmMg0bXPpLiqUYb6CTxhUd/uKqRUSpAikahxgg8eiObBRxAD4EKkH0pNFPVyBmqk4AE+XID88gC+h8ZMm6votf9W+k7C+74slBVC9VwYhS/KKIqd8mSYRmSy1J82SnUrR7nh+50AyCgZ7MEHWbqDrNkBUrkfEi5Xj8wEPYWNB0rkYRC4TRDmEh0mKM=
-  file: "./app/build/outputs/apk/app-release-unsigned.apk"
+  file: "CalculatorApp/app/build/outputs/apk/app-release-unsigned.apk"
   on:
     repo: ritika05/Android
