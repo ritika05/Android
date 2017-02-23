@@ -9,11 +9,11 @@ android:
         - extra-android-support
         - extra-android-m2repository
 
-    jdk:
-        - oraclejdk8
-    
-    script:
-        - ./gradlew build
+jdk:
+    - oraclejdk8
 
-    before_install:
-        - "chmod +x ./gradlew"
+script:
+    - ./gradlew build
+
+before_install:
+    - "chmod +x ./gradlew"
