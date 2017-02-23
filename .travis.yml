@@ -17,3 +17,13 @@ script:
 
 before_install:
     - "chmod +x ./gradlew"
+    
+deploy:
+  provider: releases
+  file: CalculatorApp/build/outputs/apk/CalculatorApp*release*.apk
+  skip_cleanup: true
+  on:
+    repo: ritika05/Android
+    tags: true
+    jdk: oraclejdk8
+  api_key: "ddb231c3df73e093fc42086491c6e17fca5ccd70"
