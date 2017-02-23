@@ -24,4 +24,7 @@ deploy:
   file: "app-debug.apk"
   skip_cleanup: true
   on:
-    tags: true 
+    branch: master
+    repo: ritika05/Android
+
+    
